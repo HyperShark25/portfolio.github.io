@@ -1,0 +1,279 @@
+header,
+.about,
+.skills,
+.resume {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(225, 225, 225);
+}
+
+
+header {
+	text-align: center;
+	color: black;
+}
+
+header p {
+	font-size: calc(2.3vw + 2.3vh);
+}
+
+.name {
+	font-size: calc(4.2vw + 4.2vh);
+}
+
+/* 2nd Section */
+
+.heading_2 {
+	text-align: center;
+	font-size: calc(3vw + 3vh);
+	padding-top: 4vh;
+}
+
+.bio {
+	width: 90vw;
+	height: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-left: 6vw;
+	margin-top: 5vh;
+	border: 2px solid black;
+	border-radius: calc(6vw + 6vh);
+	background-color: white;
+}
+.info {
+	width: 50vw;
+	height: auto;
+	margin-left: 8vw;
+	font-size: calc(1.4vw + 1.4vh);
+	font-style: italic;
+	font-weight: bold;
+}
+.profile {
+	width: 20vw;
+	height: 40vh;
+	margin-top: 6vh;
+	border-radius: calc(8vw + 8vh);
+	opacity: 90%;
+}
+
+/* 3rd Section */
+
+
+.include {
+	font-size: calc(2vw + 2vh);
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+
+.table .skill {
+	border: 5px solid black;
+}
+
+.table tr td {
+	font-size: calc(2vw + 2vh);
+	font-style: italic;
+	text-shadow: 1px 1px 2px black;
+	font-weight: bold;
+}
+
+
+.first_column,
+.second_column,
+.third_column {
+	text-align: center;
+}
+
+
+/* 4th Section */
+
+.projects {
+	background-color: rgb(225, 225, 225);
+}
+.item {
+	border-radius: calc(1vw + 1vh);
+}
+
+
+.link {
+	display: inline-block;
+	/* color: white; */
+	font-size: calc(1.2vw + 1.2vh);
+	/* text-shadow: 1px 1px 2px black; */
+	font-weight: bold;
+}
+.download {
+	color: rgb(0, 0, 250);
+	font-size: calc(1.8vw + 1.8vh);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.intern_2_grow {
+	text-align: center;
+	font-size: calc(2.5vw + 2.5vh);
+	font-weight: bold;
+}
+.description {
+	font-size: calc(1.2vw + 1.2vh);
+	font-weight: bold;
+}
+
+.row td{
+	margin-bottom: 5vh;
+	border: 2px solid black;
+}
+
+/* 5th Section */
+
+
+.item {
+	width: 40vw;
+	height: 35vh;
+	border-radius: calc(1vw + 1vh);
+}
+
+.c_sharp * {
+	border: 1px solid black
+}
+
+.link {
+	display: inline-block;
+	font-size: calc(1.2vw + 1.2vh);
+	font-weight: bold;
+}
+.download {
+	color: rgb(0, 0, 250);
+	font-size: calc(1.8vw + 1.8vh);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.intern_2_grow {
+	text-align: center;
+	font-size: calc(2.5vw + 2.5vh);
+	font-weight: bold;
+}
+.description {
+	font-size: calc(1.2vw + 1.2vh);
+	font-weight: bold;
+}
+
+
+.title {
+	color: black;
+	font-family: Verdana;
+	font-size: calc(2vw + 2vh);
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+.freeCodeCamp {
+	text-align: center;
+	font-size: calc(2vw + 2vh);
+}
+.freeCodeCamp div {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	border: 3px solid black;
+	border-radius: calc(2vw + 2vh);
+	background-color: rgb(200, 200, 200);
+}
+.freecodecamp {
+	text-decoration: none;
+	color: rgb(0, 0, 170);
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+	font-style: italic;
+	transition: 1s;
+}
+.freeCodeCamp div {
+	transition: 1s;
+}
+
+.freeCodeCamp div:hover {
+	background-color: black;
+	color: black;
+}
+.freeCodeCamp a:hover {
+	background-color: transparent;
+	color: rgb(0, 100, 255);
+}
+
+
+/* 6th Section */
+
+
+.rsm {
+	font-size: calc(1.2vw + 1.2vh);
+	color: black;
+	padding-left: 8vw;
+}
+.cv {
+	text-decoration: none;
+	color: rgb(0, 150, 250);
+	font-size: calc(1.2vw + 1.2vh);
+}
+/* contact element */
+.email {
+	color: rgb(0, 100, 220);
+	font-size: calc(1.2vw + 1.2vh);
+}
+
+.personal_info {
+	margin-left: 6vw;
+}
+
+.img-skills {
+	margin-top: -40vh;
+	margin-left: 30vw;
+}
+.img-skills img {
+	width: 65vw;
+	height: auto;
+	border-radius: calc(1.5vw + 1.5vh);
+	opacity: 50%;
+}
+
+/* footer and contact element */
+
+
+/* footer element */
+.contacts {
+	color: black;
+	font-size: calc(1.8vw + 1.5vh);
+	text-shadow: 1px 1px 3px black;
+	padding-left: 8vw;
+}
+
+
+.message {
+	width: 15vw;
+	height: auto;
+	padding-left: 15vw;
+}
+
+.message * {
+	text-decoration: none;
+	color: rgb(0, 100, 250);
+	font-size: calc(1.2vw + 1.2vh);
+}
+
+
+footer {
+	width: 100vw;
+	background-color: black;
+	bottom: 0%;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	position: fixed;
+}
+
+.copyright {
+	padding-left: 4vw;
+	padding-top: 1vh;
+}
+
