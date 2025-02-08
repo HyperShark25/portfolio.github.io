@@ -25,35 +25,32 @@ header p {
 
 .heading_2 {
 	text-align: center;
-	font-size: calc(3vw + 3vh);
-	padding-top: 4vh;
+	font-size: calc(2.5vw + 2.5vh);
+	padding-top: 1vh;
 }
 
 .bio {
-	width: 90vw;
+	width: 90%;
 	height: auto;
 	display: grid;
 	grid-template-columns: auto auto;
 	margin-left: 6vw;
-	margin-top: 5vh;
+	margin-top: 1vh;
 	border: 2px solid black;
-	border-radius: calc(6vw + 6vh);
+	border-radius: 2vw;
 	background-color: white;
 }
 .info {
-	width: 50vw;
+	width: 90%;
 	height: auto;
-	margin-left: 8vw;
 	font-size: calc(1.4vw + 1.4vh);
 	font-style: italic;
 	font-weight: bold;
 }
-.profile {
-	width: 20vw;
-	height: 40vh;
-	margin-top: 6vh;
-	border-radius: calc(8vw + 8vh);
-	opacity: 90%;
+
+.services {
+	color: rgb(23, 71, 31);
+	text-shadow: 1px 1px 2px black;
 }
 
 /* 3rd Section */
@@ -273,7 +270,8 @@ footer {
 }
 
 .copyright {
-	padding-left: 4vw;
+	padding-left: 1vw;
 	padding-top: 1vh;
+	font-size: calc(1.1vw + 1.1vh);
 }
 
